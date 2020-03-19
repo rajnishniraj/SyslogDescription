@@ -2,21 +2,21 @@
 
 example:
 
-PRI = 191
+          PRI = 191
 
-To get the Facility
-Divide the PRI number by 8. 
-191/8 = 23.875
-The whole number part is the facility.
+          To get the Facility
+          Divide the PRI number by 8. 
+          191/8 = 23.875
+          The whole number part is the facility.
 
-To get the Severity
-Take the whole number part 23 and multiply by 8 and the product subtract from 191:
-191 - (23 * 8 )= 7
+          To get the Severity
+          Take the whole number part 23 and multiply by 8 and the product subtract from 191:
+          191 - (23 * 8 )= 7
 
-PRI = Facility 23 and Priority (7)
+          PRI = Facility 23 and Priority (7)
 
-Work backword to check our work:
-23*8 = 184 + 7 = 191
+          Work backword to check our work:
+          23*8 = 184 + 7 = 191
 
 
 syslog severity overview
